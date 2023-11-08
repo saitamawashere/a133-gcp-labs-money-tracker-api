@@ -1,0 +1,6 @@
+runtime: nodejs16
+service: backend
+entrypoint: node app.js
+env_variables:
+  PORT: 8080
+
